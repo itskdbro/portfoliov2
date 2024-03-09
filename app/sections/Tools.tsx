@@ -23,6 +23,8 @@ import {
   SiRedux,
   SiVisualstudiocode,
   SiNetlify,
+  SiVercel,
+  SiCanva,
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -94,7 +96,7 @@ const Tools = () => {
                 iconSize={50}
               >
                 <SiFigma size={50} data-blobity-tooltip={"Figma"} />
-                <SiFigma size={50} data-blobity-tooltip={"Figma"} />
+                <SiCanva size={50} data-blobity-tooltip={"Canva"} />
               </AnimatedTools>
             </div>
           </div>
@@ -111,6 +113,7 @@ const Tools = () => {
                 <SiGithub size={50} data-blobity-tooltip={"Github"} />
                 <SiGit size={50} data-blobity-tooltip={"Git"} />
                 <SiNetlify size={50} data-blobity-tooltip={"Netlify"} />
+                <SiVercel size={50} data-blobity-tooltip={"Vercel"} />
                 <SiVisualstudiocode
                   size={50}
                   data-blobity-tooltip={"Visual Studio Code"}

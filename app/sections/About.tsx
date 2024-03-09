@@ -2,6 +2,9 @@ import React from "react";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import blob from "../components/blobity/Blobity";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -34,6 +37,23 @@ const About = () => {
               delay={0.2}
               text="Right now, I’m working on some exciting projects that I can’t wait to share with you. But I’m always open to new opportunities and collaborations."
             />
+            <Link
+              href="https://drive.google.com/file/d/1LQIAxPrzB2qMbbAxM16JEhqEiuMZvNXc/view?usp=sharing"
+              target="_blank"
+              aria-label="download resume"
+              className="relative mt-5 flex  w-[10rem] flex-1 items-center  px-5 py-5 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[10rempx] md:mt-3 md:h-[10px] md:w-[20rem] lg:mt-4"
+            >
+              <AnimatedTitle
+                text={" My Resume"}
+                className={
+                  "ml-[-2rem]  md:ml-[-1.5rem] flex w-[20rem] text-[20px] font-bold  leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[25px]  md:text-[40px] lg:text-[40px] "
+                }
+                wordSpace={"mr-[14px]"}
+                charSpace={"mr-[0.001em]"}
+              />
+
+              <FaExternalLinkAlt className="absolute top-3 left-[7rem] h-[0.8rem] w-[5rem] sm:top-[0.4rem] sm:left-[15.5rem]  sm:h-[1.5rem]  " />
+            </Link>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ const Contact = () => {
           <AnimatedWords
             title={"contact"}
             style={
-              "flex max-w-[400px] flex-col items-end text-right text-[75px] font-extrabold uppercase leading-[2em] md:leading-[0.8em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[150px] md:text-[200px] lg:text-center lg:text-[250px] xl:text-[290px] mr-[-2rem] "
+              "flex max-w-[400px]  flex-col items-end text-right text-[75px] font-extrabold uppercase leading-[2em] md:leading-[0.8em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[150px] md:text-[200px] lg:text-center lg:text-[250px] xl:text-[290px] mr-[0px] "
             }
           />
         </div>
