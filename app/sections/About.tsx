@@ -38,7 +38,7 @@ const About = () => {
               text="Right now, I’m working on some exciting projects that I can’t wait to share with you. But I’m always open to new opportunities and collaborations."
             />
             <Link
-              href="https://drive.google.com/file/d/1LQIAxPrzB2qMbbAxM16JEhqEiuMZvNXc/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Zk1JjrgtRm4W3EC4C8CdqtHJdjtk45ja/view?usp=drive_link"
               target="_blank"
               aria-label="download resume"
               className="relative mt-5 flex  w-[10rem] flex-1 items-center  px-5 py-5 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[10rempx] md:mt-3 md:h-[10px] md:w-[20rem] lg:mt-4"
@@ -46,7 +46,7 @@ const About = () => {
               <AnimatedTitle
                 text={" My Resume"}
                 className={
-                  "ml-[-2rem]  md:ml-[-1.5rem] flex w-[20rem] text-[20px] font-bold  leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[25px]  md:text-[40px] lg:text-[40px] "
+                  "ml-[-2rem]  flex w-[20rem] text-[20px] font-bold leading-[0.9em]  tracking-tighter text-[#e4ded7] sm:text-[25px] md:ml-[-1.5rem]  md:text-[40px] lg:text-[40px] "
                 }
                 wordSpace={"mr-[14px]"}
                 charSpace={"mr-[0.001em]"}
